@@ -3,8 +3,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    font: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -18,7 +17,7 @@ a {
 
 .navbar {
     overflow: clip;
-    background: #f9f9f9;
+    background: #eeeeee;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -66,7 +65,8 @@ a {
 }
 
 .navbar__links {
-    color: #454545;
+    color: #585858;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,10 +92,11 @@ a {
     border-radius: 4px;
     background: #81d875;
     color: #ffffff;
+    font-weight: 600;
 }
 
 .button:hover {
-    background: #454545;
+    background: #585858;
     transition: all 0.3s ease;
 }
 
