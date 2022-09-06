@@ -130,8 +130,9 @@ p {
 }
 
 .card__container {
+    flex-wrap: wrap;
     display: flex;
-    float: left;
+    float: center;
     height: auto;
     margin: 80px 100px;
     align-items: center;
@@ -141,7 +142,7 @@ p {
 .card input[type=image] {
     display: inline;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    margin: 15px;
+    margin: 0px 40px 40px;
     height: 400px;
     width: 300px;
     transition: 0.3s;
