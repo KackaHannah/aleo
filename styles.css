@@ -67,6 +67,7 @@ a {
 .navbar__links {
     color: #585858;
     font-weight: 600;
+    transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,14 +94,13 @@ a {
     background: #81d875;
     color: #ffffff;
     font-weight: 600;
+    transition: 0.3s;
 }
 
 .button:hover {
     background: #585858;
-    transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
     color: #81d875;
-    transition: all 0.3s ease;
 }
