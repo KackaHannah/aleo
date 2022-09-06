@@ -15,33 +15,45 @@ a {
     align-items: center;
 }
 
+h1 {
+    color: #231f20;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #231f20;
+}
+
+p {
+    color: #505050;
+}
+
 .navbar {
-    overflow: clip;
+    overflow: hidden;
     background: #eeeeee;
     height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font-size: 1.3rem;
-    position: sticky;
 }
 
 .navbar__container {
     display: flex;
-    justify-content: space-between;
     height: 80px;
     width: 100%;
     max-width: 1300px;
 }
 
 #navbar__logo {
-    margin: 10px;
+    margin-left: 100px;
 }
 
-.navbar__menu {
-    align-items: left;
+#navbar__menu {
     list-style: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar__item {
@@ -49,14 +61,13 @@ a {
 }
 
 .navbar_btn {
-    float: right;
     height: 80px;
 }
 
 .navbar__search input[type=text] {
-    float: left;
-    margin-left: 50px;
-    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px 10px 50px;
     padding: 15px 0px 15px 15px;
     border: none;
     outline: none;
@@ -65,7 +76,7 @@ a {
 }
 
 .navbar__links {
-    color: #585858;
+    color: #505050;
     font-weight: 600;
     transition: 0.3s;
     display: flex;
@@ -82,14 +93,12 @@ a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
-    padding: 10px 20px;
-    margin-top: 15px;
-    margin-left: 15px;
-    height: 50px;
-
     border: none;
     outline: none;
+
+    padding: 12px 20px;
+    margin: 10px 100px 10px 10px;
+
     border-radius: 4px;
     background: #81d875;
     color: #ffffff;
@@ -98,9 +107,55 @@ a {
 }
 
 .button:hover {
-    background: #585858;
+    background: #231f20;
 }
 
 .navbar__links:hover {
     color: #81d875;
+}
+
+.header__container {
+    height: auto;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    margin: 80px 100px 0px;
+}
+
+.par__container {
+    height: auto;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    margin: 20px 100px 0px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 80px auto;
+}
+
+.row {
+    margin: 0px 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card input[type=image] {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    height: 420px;
+    width: 315px;
 }
