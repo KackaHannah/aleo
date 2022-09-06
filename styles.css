@@ -47,6 +47,7 @@ p {
 
 #navbar__logo {
     margin-left: 100px;
+    display: flex;
 }
 
 #navbar__menu {
