@@ -128,34 +128,24 @@ p {
     margin: 20px 100px 0px;
 }
 
-.column {
+.card__container {
+    display: flex;
     float: left;
-    width: 25%;
-    padding: 0 10px;
-    margin: 80px auto;
-}
-
-.row {
-    margin: 0px 100px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+    height: auto;
+    margin: 80px 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card input[type=image] {
-    display: flex;
+    display: inline;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    margin: auto;
+    margin: 15px;
     height: 400px;
     width: 300px;
     transition: 0.3s;
 }
 
-.card:hover {
-    height: 420px;
-    width: 315px;
+.card__thumbnail:hover {
+    transform: scale(0.97);
 }
