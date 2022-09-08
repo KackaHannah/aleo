@@ -1,0 +1,9 @@
+COLORS:
+white: #ffffff
+black: #231f20
+font-gray: #505050
+container-gray: #eeeeee
+green: #81d875
+
+FONTS:
+family: Montserrat sans-serif
